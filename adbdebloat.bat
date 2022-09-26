@@ -144,6 +144,7 @@ adb shell pm uninstall --user 0 com.eterno.shortvideos                          
 @echo Debloating some fonts
 adb shell pm uninstall --user 0 com.monotype.android.font.foundation
 adb shell pm uninstall --user 0 com.monotype.android.font.samsungone                    #Samsung One Font
+adb shell pm uninstall --user 0 com.android.theme.font.notoserifsource
 
 @echo Debloating Samsung services and apps
 adb shell pm uninstall --user 0 com.osp.app.signin                                      #Samsung Account
