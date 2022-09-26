@@ -3,7 +3,7 @@
   </p>
 
 # Prerequire
-To run it in Windows/MacOS/Linux, make sure you have ADB installed, if you didn't install it or don't know to do, please click [me](adbinstruction.md) to see how to do
+To run it in Windows/MacOS/Linux, make sure you have ADB installed, if you didn't install, please click [me](https://developer.android.com/studio/releases/platform-tools) to install
 # What can this script do?
 Debloat system apps to make your system to make your One UI faster, better battery life and improve privacy
 
@@ -85,9 +85,31 @@ Now, run termuxdebloat.sh and let it do everything for you
 ~~~
 ./termuxdebloat.sh
 ~~~
+# After update
+After update, system may reinstall some apps, just run script again.
+
+Also after update, your device may be slower or drains battery so fast, run this command to optimize it:
+~~~
+adb shell cmd package bg-dexopt-job
+~~~
+
+On Termux, run this command
+
+- For rooted devices
+~~~
+su -c "cmd package bg-dexopt-job"
+~~~
+ - For Termux+Shizuku, run this after **sh rish** command
+ ~~~
+ cmd package bg-dexopt-job
+ ~~~
 
 # Enjoy faster experience
 <p align="center">
     <img src="./src/gaming.jpg"/>
   </p>
 
+# Credit
+- invinciblevenom for [One UI Debloat Script](https://github.com/invinciblevenom/debloat_samsung_android/blob/main/README.md)
+- KelvinCrag for [Optimizer](https://github.com/KelvinCrag/Optimizer)
+- Me
