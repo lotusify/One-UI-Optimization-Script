@@ -4,6 +4,8 @@
 
 # Prerequire
 To run it in Windows/MacOS/Linux, make sure you have ADB installed, if you didn't install, please click [me](https://developer.android.com/studio/releases/platform-tools) to install
+
+Connect to your One UI device before running script
 # What can this script do?
 Debloat system apps to make your system to make your One UI faster, better battery life and improve privacy
 
@@ -35,6 +37,9 @@ or
 ~~~
 ./adbdebloat.sh
 ~~~
+
+# Universal Android Debloater
+Coming soon. I am lazy now. I am bored with everything.
 # Termux
 >Download Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/) or [Github](https://github.com/termux/termux-app/releases), not Play Store
 
@@ -61,7 +66,7 @@ Now, Follow these step to using this debloater:
 
  Open Shizuku, select Use Shizuku in terminal apps, click export files, choose a folder and ok
 
- Use any text editor to replace PKG with com.termux in rish file
+ Use any text editor to replace PKG with com.termux in **rish** file
 
 Note: Move termuxdebloat.sh to the same folder
 
@@ -81,7 +86,7 @@ Run this command and grant Shizuku permission:
 sh rish
 ~~~
 
-Now, run termuxdebloat.sh and let it do everything for you
+Now, run **termuxdebloat.sh** and let it do everything for you
 ~~~
 ./termuxdebloat.sh
 ~~~
