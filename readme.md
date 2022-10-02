@@ -38,8 +38,6 @@ or
 ./adbdebloat.sh
 ~~~
 
-# Universal Android Debloater
-Coming soon. I am lazy now. I am bored with everything.
 # Termux
 >Download Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/) or [Github](https://github.com/termux/termux-app/releases), not Play Store
 
