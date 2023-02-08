@@ -19,7 +19,7 @@ adb shell cmd install-existing com.samsung.android.scloud
 ~~~
 # Run the script
 Before running script, please download this repo and extract file, then go to folder One-UI-Optimization-Script
- Then, just run the script according to your os. For running directly on android, please refer [this](#Termux)
+ Then, just run the script according to your OS. For running directly on android, please refer [this](#Termux)
 
 # Windows
 On Windows, right click on adbdebloat.bat and click Run as administator
