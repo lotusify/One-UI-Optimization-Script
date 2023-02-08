@@ -1,5 +1,5 @@
 echo Batch Removing System Apps by invinciblevenom
-echo Modified by Trung with extra and category
+echo Modified by Lotusify with extra and category
 echo =====================================================================
 adb devices
 echo Removing theme related option in Settings
