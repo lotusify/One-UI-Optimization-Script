@@ -1,6 +1,6 @@
 @echo off
 @echo Batch Removing System Apps by invinciblevenom
-@echo Modified by Trung with extra and category
+@echo Modified by  with extra and category
 @echo =====================================================================
 
 adb devices
