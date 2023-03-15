@@ -53,7 +53,7 @@ termux-setup-storage
  ~~~
  cd /../../<your path to script>
 ~~~
-Note: If your phone is rooted, I recommend use this [Debloater](https://github.com/sunilpaulmathew/De-Bloater) or Debloater Magisk Module instead of this method
+Note: If your phone is rooted, you can use this [Debloater](https://github.com/sunilpaulmathew/De-Bloater) or Debloater Magisk Module instead of this method
 
 - For non-root devices
 
